@@ -1,0 +1,6 @@
+# System packages required (install via package manager):
+# - python3-gi
+# - gir1.2-gtk-3.0
+
+# Python packages (if needed):
+requests>=2.25.0
