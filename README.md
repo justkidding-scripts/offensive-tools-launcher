@@ -2,31 +2,31 @@
 
 A graphical tool launcher and repository manager for offensive security tools. Built specifically for penetration testers and red teamers to centralize tool management, documentation, and C2 connections.
 
-![Tools Launcher](https://img.shields.io/badge/Python-3.x-blue.svg)
-![GTK](https://img.shields.io/badge/GUI-GTK3-green.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Tools Launcher](https/img.shields.io/badge/Python-3.x-blue.svg)
+![GTK](https/img.shields.io/badge/GUI-GTK3-green.svg)
+![License](https/img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Features
 
-### 🚀 **Tool Management**
+### **Tool Management**
 - Graphical interface for launching offensive security tools
 - Auto-discovery of GitHub repositories on your system
 - One-click tool installation and updates
 - Centralized help and documentation
 
-### 🔧 **GitHub Integration**
+### **GitHub Integration**
 - Automatic scanning for existing repositories
 - Clone missing tools with one click
 - Bulk update all repositories
 - GitHub API token integration
 
-### 🎯 **C2 Framework Support**
+### **C2 Framework Support**
 - Pre-configured Empire and Starkiller integration
 - Remote C2 connection management
 - Quick-launch buttons for common commands
 - Connection guidance and documentation
 
-### 📋 **Built-in Tools**
+### **Built-in Tools**
 - **Empire**: PowerShell and Python C2 framework
 - **Starkiller**: Empire frontend GUI
 - **King Phisher**: Phishing campaign toolkit
@@ -45,7 +45,7 @@ sudo apt-get install python3-gi gir1.2-gtk-3.0
 
 ### Quick Install
 ```bash
-git clone https://github.com/YOUR_USERNAME/offensive-tools-launcher.git
+git clone https/github.com/YOUR_USERNAME/offensive-tools-launcher.git
 cd offensive-tools-launcher
 chmod +x tools-launcher.py
 ./tools-launcher.py
@@ -75,7 +75,7 @@ The launcher automatically scans your system for GitHub repositories and adds th
 
 #### 2. **GitHub Integration**
 - Click "Set GitHub Token" to configure API access
-- Use "Clone Repository" for missing tools  
+- Use "Clone Repository" for missing tools
 - "Update All" pulls latest changes from all repos
 
 #### 3. **Tool Management**
@@ -96,20 +96,20 @@ Pre-configured support for:
 Edit `~/.config/tools-launcher/tools.json` to customize:
 ```json
 {
-  "ToolName": {
-    "path": "/path/to/tool",
-    "url": "https://github.com/author/repo",
-    "description": "Tool description",
-    "help": "Usage instructions...",
-    "commands": {
-      "Button Name": "command to run"
-    }
-  }
+ "ToolName": {
+ "path": "/path/to/tool",
+ "url": "https/github.com/author/repo",
+ "description": "Tool description",
+ "help": "Usage instructions...",
+ "commands": {
+ "Button Name": "command to run"
+ }
+ }
 }
 ```
 
 ### GitHub Token Setup
-1. Create a token at [GitHub Settings](https://github.com/settings/tokens)
+1. Create a token at [GitHub Settings](https/github.com/settings/tokens)
 2. Required scopes: `repo`, `read:org`
 3. Click "Set GitHub Token" in the launcher
 4. Enter your token
@@ -138,7 +138,7 @@ kp-manage start
 # Update all repositories
 Click "Update All" in the GUI
 # Or manually
-git pull  # In each tool directory
+git pull # In each tool directory
 ```
 
 ## Tool Integration
@@ -154,9 +154,9 @@ Tools are automatically discovered if they're GitHub repositories. To add manual
 Each tool can have multiple quick-launch commands:
 ```json
 "commands": {
-  "Start Server": "./start-server.sh",
-  "Connect Client": "./client --connect",
-  "Show Help": "./tool --help"
+ "Start Server": "./start-server.sh",
+ "Connect Client": "./client --connect",
+ "Show Help": "./tool --help"
 }
 ```
 
@@ -165,11 +165,11 @@ Each tool can have multiple quick-launch commands:
 ### Project Structure
 ```
 offensive-tools-launcher/
-├── tools-launcher.py          # Main GUI application
-├── desktop/                   # Desktop integration files
-├── docs/                      # Documentation
-├── screenshots/               # Application screenshots
-└── README.md                  # This file
+├── tools-launcher.py # Main GUI application
+├── desktop/ # Desktop integration files
+├── docs/ # Documentation
+├── screenshots/ # Application screenshots
+└── README.md # This file
 ```
 
 ### Dependencies
@@ -212,13 +212,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Disclaimer
 
-This tool is for authorized penetration testing and educational purposes only. Users are responsible for compliance with applicable laws and regulations.
+This tool is for authorized and educational purposes only. Users are responsible for compliance with applicable laws and regulations.
 
 ## Support
 
-- 🐛 [Report Issues](https://github.com/YOUR_USERNAME/offensive-tools-launcher/issues)
-- 📖 [Documentation](https://github.com/YOUR_USERNAME/offensive-tools-launcher/wiki)
-- 💬 [Discussions](https://github.com/YOUR_USERNAME/offensive-tools-launcher/discussions)
+- [Report Issues](https/github.com/YOUR_USERNAME/offensive-tools-launcher/issues)
+- [Documentation](https/github.com/YOUR_USERNAME/offensive-tools-launcher/wiki)
+- [Discussions](https/github.com/YOUR_USERNAME/offensive-tools-launcher/discussions)
 
 ## Acknowledgments
 
